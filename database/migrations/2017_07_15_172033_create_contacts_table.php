@@ -13,21 +13,11 @@ class CreateContactsTable extends Migration
             // Columns
             $table->increments('id');
             $table->morphs('entity');
-            $table->string('given_name');
             $table->string('family_name')->nullable();
             $table->string('title')->nullable();
-            $table->string('organization')->nullable();
             $table->string('email')->nullable();
             $table->string('phone')->nullable();
-            $table->string('fax')->nullable();
-            $table->string('country_code', 2)->nullable();
-            $table->string('language_code', 2)->nullable();
-            $table->date('birthday')->nullable();
-            $table->string('gender')->nullable();
-            $table->string('national_id_type')->nullable();
-            $table->string('national_id')->nullable();
-            $table->string('source')->nullable();
-            $table->string('method')->nullable();
+            $table->json('extras')->nullable();
             $table->text('notes')->nullable();
             $table->timestamps();
             $table->softDeletes();
