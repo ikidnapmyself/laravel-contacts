@@ -1,3 +1,6 @@
+# Important Note!
+This fork is for personal usage, feel free to enjoy. Original source -> [rinvex/laravel-contacts](https://github.com/rinvex/laravel-contacts)
+
 # Rinvex Contacts
 
 **Rinvex Contacts** is a polymorphic Laravel package, for contact management system. You can add contacts to any eloquent model with ease.
