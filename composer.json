@@ -1,5 +1,5 @@
 {
-    "name": "rinvex/laravel-contacts",
+    "name": "ikidnapmyself/laravel-contacts",
     "description": "Rinvex Contacts is a polymorphic Laravel package, for contact management system. You can add contacts to any eloquent model with ease.",
     "type": "library",
     "keywords": [
